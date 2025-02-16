@@ -19,6 +19,7 @@ Copy
 Edit
 git clone https://github.com/karthiga0456/-Streamlit-Chatbot-using-Llama-3-Ollama-.git
 cd Streamlit-Chatbot-using-Llama-3-Ollama
+
 2️⃣ Set Up a Virtual Environment
 sh
 Copy
@@ -26,16 +27,19 @@ Edit
 python -m venv myenv
 source myenv/bin/activate  # On macOS/Linux
 myenv\Scripts\activate     # On Windows
+
 3️⃣ Install Dependencies
 sh
 Copy
 Edit
 pip install -r requirements.txt
+
 4️⃣ Install Ollama and Llama 3 Model
 sh
 Copy
 Edit
 ollama pull llama3
+
 5️⃣ Run the Streamlit App
 sh
 Copy
